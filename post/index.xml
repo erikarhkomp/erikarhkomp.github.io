@@ -27,7 +27,9 @@
       <link>https://example.com/post/%D0%BC%D0%BE%D1%8F-3-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</link>
       <pubDate>Thu, 25 Apr 2024 13:30:32 +0300</pubDate>
       <guid>https://example.com/post/%D0%BC%D0%BE%D1%8F-3-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;Моя третяя неделя&lt;/strong&gt;
+На этой неделе я готовился к экзамену в автошколе по теории. Я целыми днями сидел и решал билеты по теории но к сожалению это мне не помагло и я провалил экзамен и пойду на пересдачу в эту пятницу.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -307,7 +309,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-428536179&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-132478965&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -317,7 +319,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-428536179&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-132478965&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
